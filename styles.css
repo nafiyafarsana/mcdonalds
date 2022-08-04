@@ -1,0 +1,114 @@
+.container-fluid {
+  padding: 5% 12% 7%;
+}
+
+.nav-item {
+  font-family: Speedee, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+
+}
+
+.nav .title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.disclaimer {
+  font-size: 10px;
+  line-height: 1.45;
+}
+
+.text-dark {
+  text-decoration: none;
+  line-height: 2;
+}
+
+.icon {
+  margin: 8px;
+}
+
+.socialmedia {
+  text-align: center;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.copyright {
+  list-style: none;
+}
+
+.nav-link {
+  font-size: 20px;
+  color: Black;
+}
+
+.logo-footer {
+  width: 30px;
+  height: 30px;
+}
+
+.copyright-text {
+  text-decoration: none;
+  font-size: 10px;
+  color: inherit;
+}
+
+.footer-text {
+  font-size: 15px;
+  text-align: left;
+}
+
+footer {
+  padding-left: 12%;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+
+.accordion {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 10px 3%;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-size: 18px;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+  float: right;
+  font: var(--fa-font-solid);
+  content: "\2b";
+}
+
+.active:after {
+  font: var(--fa-font-solid);
+  content: "\f068";
+}
+
+#accordionsample {
+  display: none;
+}
+
+@media (max-width : 1024px) {
+  #accordionsample {
+    display: block;
+  }
+
+  #footer {
+    display: none;
+  }
+}
